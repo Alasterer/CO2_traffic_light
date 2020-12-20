@@ -1,5 +1,5 @@
 # CO2 Traffic Light
-DIY CO2 sensor with traffic light and 7-segment display for air quality indication
+DIY CO2 sensor with traffic light and 7-segment display for air quality indication.
 
 <img src="https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/CO2_traffic_light_7-segment_version_FRONT.jpg">
 <p float="left">
