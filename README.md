@@ -2,7 +2,6 @@
 Traffic light for DIY CO2 sensor
 
 ## 7-segment version
-![Block diagram of CO2 sensor setup (7-segment version)](https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/7-seg_version_V1_block_diagram.png) 
 
 DIY CO2 sensor with the following features:
   * CO2 sensor (Telaire T6713) for measuring real air CO2 content (it is not a equivalent CO2 sensor)
@@ -15,3 +14,5 @@ DIY CO2 sensor with the following features:
     * short press (< 1 s): change brightness of RGB LED and 7-segment display. Useful to adjust brightness for use at night or with direct sunlight.
     * long press (>= 10 s): start and perform calibration of CO2 sensor (Telaire T6713). Calibration takes about 7 to 8 minutes to complete.
   * Central microcontroller (Arduino Nano) outputs new CO2 ppm value as simulated serial port with 115200 baud. Can be accessed, recorded and plotted with e.g. Python script.
+
+![Block diagram of CO2 sensor setup (7-segment version)](https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/7-seg_version_V1_block_diagram.png) 
