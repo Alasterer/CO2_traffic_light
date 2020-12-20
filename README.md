@@ -16,7 +16,6 @@ DIY CO2 sensor with the following features:
   * Central microcontroller (Arduino Nano) outputs new CO2 ppm value as simulated serial port with 115200 baud. Can be accessed, recorded and plotted with e.g. Python script.
 
 <img src="https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/7-seg_version_V1_block_diagram.png" width="400"/>
-*image_caption*
 
 ---
 
