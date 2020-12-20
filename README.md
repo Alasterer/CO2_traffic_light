@@ -1,5 +1,5 @@
 # CO2 Traffic Light
-Traffic light for DIY CO2 sensor
+DIY CO2 sensor with traffic light and 7-segment display for air quality indication
 
 ## 7-segment version
 
@@ -16,3 +16,16 @@ DIY CO2 sensor with the following features:
   * Central microcontroller (Arduino Nano) outputs new CO2 ppm value as simulated serial port with 115200 baud. Can be accessed, recorded and plotted with e.g. Python script.
 
 ![Block diagram of CO2 sensor setup (7-segment version)](https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/7-seg_version_V1_block_diagram.png) 
+
+
+## LCD display version
+
+It is planned to complete a version with LCD display (Nokia 5110) that has several more features:
+  * Nokia 5110 LCD display (has background LED)
+  * Push buttons, 3x, SMD: For navigating on screen menu on LCD screen
+  * Night light LED (warm white) for soft room illumination at night
+  * Photoresistor for detection ambient light levels (can be used to dim RGB LED, Night light LED and/or display backlight)
+  * Connector for BMP180 sensor module: Can measure temperature and ambient barometric pressure. Values will be display on LCD as well
+  * Connector for NRF24L01 communication module:
+    * Use case 1: Communicate with separate Arduino that activates fan to vent room when CO2 levels are too high
+    * Use case 2: Communicate with Raspberry Pi for recording measurement values
