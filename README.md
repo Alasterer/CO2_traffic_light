@@ -19,7 +19,14 @@ DIY CO2 sensor with the following features:
   * button with 2 functions:
     * short press (< 1 s): change brightness of RGB LED and 7-segment display. Useful to adjust brightness for use at night or with direct sunlight.
     * long press (>= 10 s): start and perform calibration of CO2 sensor (Telaire T6713). Calibration takes about 7 to 8 minutes to complete.
-  * Central microcontroller module (Arduino Nano, [Pinout](https://i.pinimg.com/originals/c4/87/21/c487213e9081fb0050878a02304e5693.png), [PDF datasheet microcontroller ATMega328P](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf)) outputs new CO2 ppm value as simulated serial port with 115200 baud. Can be accessed, recorded and plotted with e.g. Python script [serial_logger_v5_working.py](https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/serial_logger_v5_working.py).
+  * Central microcontroller module (Arduino Nano, [Pinout](https://i.pinimg.com/originals/c4/87/21/c487213e9081fb0050878a02304e5693.png), [PDF datasheet microcontroller ATMega328P](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf)) outputs new CO2 ppm value as simulated serial port with 115200 baud. You can use general tools for accessing the serial data or use my Python scripts:
+    * [serial_logger_v5_working.py](https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/serial_logger_v5_working.py): Logging serial data
+      * Records to .csv files
+      * Names .csv files after current date and time
+      * Creates counter at end of file name if file with same name is present
+      * Starts new .csv file after midnight to keep data steam manageable
+      * Creates time stamps in front of measurement data and records this to .csv files as the first element in each line
+    * [plot_serial_data_v2_working.py](https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/plot_serial_data_v2_working.py): Plot measurement data to live graph with .png export
 
 <img src="https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/7-seg_version_V1_block_diagram.png" width="400"/>
 
