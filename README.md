@@ -31,7 +31,7 @@ It is planned to complete a version with LCD display (Nokia 5110) that has sever
   * [Nokia 5110 LCD display](https://learn.sparkfun.com/tutorials/graphic-lcd-hookup-guide) (has background LED)
   * Push buttons, 3x, SMD: For navigating on screen menu on LCD screen
   * Night light LED (warm white, 5V, PWM dimming) for soft room illumination at night
-  * Photoresistor for detection ambient light levels (can be used to dim RGB LED, Night light LED and/or display backlight)
+  * Photoresistor ([GL5516](http://static.cactus.io/img/sensors/light/ldr/ldr-circuit.jpg) with 5 to 10 kOhm at 10 Lux) for detection ambient light levels (can be used to dim RGB LED, Night light LED and/or display backlight)
   * Connector for [BMP180 sensor module](http://www.esp8266learning.com/wemos-mini-bmp180-shield.php): Can measure temperature and ambient barometric pressure. Values will be display on LCD as well
   * Connector for [NRF24L01 communication module](https://lastminuteengineers.com/nrf24l01-arduino-wireless-communication/):
     * Use case 1: Communicate with separate Arduino that activates fan to vent room when CO2 levels are too high
