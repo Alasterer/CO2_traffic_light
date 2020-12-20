@@ -10,7 +10,7 @@ DIY CO2 sensor with traffic light and 7-segment display for air quality indicati
 ## 7-segment version
 
 DIY CO2 sensor with the following features:
-  * CO2 sensor (Telaire T6713) for measuring real air CO2 content (it is not a equivalent CO2 sensor)
+  * CO2 sensor ([[https://www.14core.com/wiring-the-telaire-t6713-t67xx-a-carbon-dioxide-co2-sensor/amp/|Telaire T6713]]) for measuring real air CO2 content (it is not a equivalent CO2 sensor)
   * 7-segment display (TM1637, 4 digits) to show current CO2 measurement in ppm (unit for CO2)
   * RGB LED (WS2812B) as traffic light to show the current air quality assessment
     * 0 to 1600 ppm: green light, air quality is good
