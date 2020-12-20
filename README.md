@@ -11,7 +11,7 @@ DIY CO2 sensor with traffic light and 7-segment display for air quality indicati
 
 DIY CO2 sensor with the following features:
   * CO2 sensor ([Telaire T6713](https://www.14core.com/wiring-the-telaire-t6713-t67xx-a-carbon-dioxide-co2-sensor/amp), [PDF datasheet](https://www.mouser.com/pdfDocs/AAS-916-142A-Telaire-T67xx-CO2-Sensor-022719-web.pdf)) for measuring real air CO2 content (it is not a equivalent CO2 sensor)
-  * 7-segment display ([TM1637](https://www.makerguides.com/tm1637-arduino-tutorial), 4 digits, [PDF datasheet controller](https://www.sparkfun.com/datasheets/LCD/Monochrome/Nokia5110.pdf)) to show current CO2 measurement in ppm (unit for CO2)
+  * 7-segment display ([TM1637](https://www.makerguides.com/tm1637-arduino-tutorial), 4 digits, [PDF datasheet controller](https://www.mcielectronics.cl/website_MCI/static/documents/Datasheet_TM1637.pdf)) to show current CO2 measurement in ppm (unit for CO2)
   * RGB LED ([WS2812B](https://www.mschoeffler.de/2017/08/24/how-to-control-an-led-pixel-strip-ws2812b-with-an-arduino-and-the-fastled-library), [PDF datasheet](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)) as traffic light to show the current air quality assessment
     * 0 to 1600 ppm: green light, air quality is good
     * 1600 to 2200 ppm: yellow light, air quality could be better, please air the room
@@ -28,11 +28,11 @@ DIY CO2 sensor with the following features:
 ## LCD display version
 
 It is planned to complete a version with LCD display (Nokia 5110) that has several more features:
-  * [Nokia 5110 LCD display](https://learn.sparkfun.com/tutorials/graphic-lcd-hookup-guide) (has background LED)
+  * [Nokia 5110 LCD display](https://learn.sparkfun.com/tutorials/graphic-lcd-hookup-guide) (has background LED), [PDF datasheet controller](https://www.sparkfun.com/datasheets/LCD/Monochrome/Nokia5110.pdf)
   * Push buttons, 3x, SMD: For navigating on screen menu on LCD screen
   * Night light LED (warm white, 5V, PWM dimming) for soft room illumination at night
   * Photoresistor ([GL5516](http://static.cactus.io/img/sensors/light/ldr/ldr-circuit.jpg) with 5 to 10 kOhm at 10 Lux) for detection ambient light levels (can be used to dim RGB LED, Night light LED and/or display backlight)
-  * Connector for [BMP180 sensor module](http://www.esp8266learning.com/wemos-mini-bmp180-shield.php): Can measure temperature and ambient barometric pressure. Values will be display on LCD as well
-  * Connector for [NRF24L01 communication module](https://lastminuteengineers.com/nrf24l01-arduino-wireless-communication/):
+  * Connector for [BMP180 sensor module](http://www.esp8266learning.com/wemos-mini-bmp180-shield.php), [PDF datasheet](https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf): Can measure temperature and ambient barometric pressure. Values will be display on LCD as well
+  * Connector for [NRF24L01 communication module](https://lastminuteengineers.com/nrf24l01-arduino-wireless-communication/), [PDF datasheet](https://www.sparkfun.com/datasheets/Components/SMD/nRF24L01Pluss_Preliminary_Product_Specification_v1_0.pdf):
     * Use case 1: Communicate with separate Arduino that activates fan to vent room when CO2 levels are too high
     * Use case 2: Communicate with Raspberry Pi for recording measurement values
