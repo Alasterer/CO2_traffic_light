@@ -3,8 +3,8 @@ DIY CO2 sensor with traffic light and 7-segment display for air quality indicati
 
 
 <p float="left">
- <img src="https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/CO2_traffic_light_7-segment_version_FRONT.jpg" height="500"/>
- <img src="https://github.com/Alasterer/CO2_traffic_light/blob/main/CO2_traffic_light_7-segment_version_CONSTRUCTION.jpg" height="500"/>
+ <img src="https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/CO2_traffic_light_7-segment_version_FRONT.jpg" height="450"/>
+ <img src="https://github.com/Alasterer/CO2_traffic_light/blob/main/CO2_traffic_light_7-segment_version_CONSTRUCTION.jpg" height="450"/>
 </p>
 <p float="left">
  <img src="https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/CO2_traffic_light_7-segment_version_BACK.jpg" width="400"/>
