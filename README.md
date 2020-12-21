@@ -11,6 +11,14 @@ DIY CO2 sensor with traffic light and 7-segment display for air quality indicati
  <img src="https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/CO2_traffic_light_7-segment_version_INTERNALS.jpg" width="400"/>
 </p>
 
+## Purpose
+
+I wanted to be able to measure the CO2 content of the air inside my appartment and the office.
+The targets are:
+  * To preventing the spread of the corona virus (adhering to the guidelines) I need to be able to know when the room needs fresh air (especially useful when colleagues are in the same office space)
+  * Prevent high CO2 content in the room since this impacts directly my productivity and ability to think straight (especially useful during work hours)
+
+
 ## 7-segment version
 
 DIY CO2 sensor with the following features:
