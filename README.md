@@ -40,10 +40,11 @@ DIY CO2 sensor with the following features:
       * Creates time stamps in front of measurement data and records this to .csv files as the first element in each line
     * [plot_serial_data_v2_working.py](https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/plot_serial_data_v2_working.py): Plot measurement data to live graph with .png export
 
-Notes:
+### Notes
   * There is a small window in front of the RGB LED which was printed using clear PLA (noname brand material)
   * The main body and rear plate were printed using [PLA Prusament Galaxy Black](https://shop.prusa3d.com/de/prusament/711-prusament-pla-prusa-galaxy-black-1kg.html) which prints very nicely. Layer height was 0.2mm using a Prusa i3 MK3S with standard prusament settings set in Prusa Slicer.
 
+### Block diagram
 <img src="https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/7-seg_version_V1_block_diagram.png" width="400"/>
 
 ---
