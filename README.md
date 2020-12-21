@@ -20,7 +20,7 @@ DIY CO2 sensor with the following features:
     * 0 to 1600 ppm: green light, air quality is good
     * 1600 to 2200 ppm: yellow light, air quality could be better, please air the room
     * above 2200 ppm (max for sensor is 5000 ppm): red light, air quality is bad, concentration problems could occur above this threshold, air room as soon as possible
-  * button with 2 functions:
+  * Push button with 2 functions:
     * short press (< 1 s): change brightness of RGB LED and 7-segment display. Useful to adjust brightness for use at night or with direct sunlight.
     * long press (>= 10 s): start and perform calibration of CO2 sensor (Telaire T6713). Calibration takes about 7 to 8 minutes to complete.
   * Central microcontroller module (Arduino Nano, [Pinout](https://i.pinimg.com/originals/c4/87/21/c487213e9081fb0050878a02304e5693.png), [PDF datasheet microcontroller ATMega328P](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf)) outputs new CO2 ppm value as simulated serial port with 115200 baud. You can use general tools for accessing the serial data or use my Python scripts:
