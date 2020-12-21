@@ -16,7 +16,7 @@ DIY CO2 sensor with traffic light and 7-segment display for air quality indicati
 DIY CO2 sensor with the following features:
   * CO2 sensor ([Telaire T6713](https://www.14core.com/wiring-the-telaire-t6713-t67xx-a-carbon-dioxide-co2-sensor/amp), [PDF datasheet](https://www.mouser.com/pdfDocs/AAS-916-142A-Telaire-T67xx-CO2-Sensor-022719-web.pdf)) for measuring real air CO2 content (it is not a equivalent CO2 sensor)
   * 7-segment display ([TM1637](https://www.makerguides.com/tm1637-arduino-tutorial), 4 digits, [PDF datasheet controller](https://www.mcielectronics.cl/website_MCI/static/documents/Datasheet_TM1637.pdf)) to show current CO2 measurement in ppm (unit for CO2)
-  * RGB LED ([WS2812B](https://www.mschoeffler.de/2017/08/24/how-to-control-an-led-pixel-strip-ws2812b-with-an-arduino-and-the-fastled-library), [PDF datasheet](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)) as traffic light to show the current air quality assessment
+  * RGB LED ([WS2812B](https://www.mschoeffler.de/2017/08/24/how-to-control-an-led-pixel-strip-ws2812b-with-an-arduino-and-the-fastled-library), [PDF datasheet](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)) as traffic light to show the current air quality assessment. The following values are averaged over multiple online sources regarding CO2 threshold levels and were experimentally tested to be good values (air feels "stuffy" vs. air feels "clean"):
     * 0 to 1600 ppm: green light, air quality is good
     * 1600 to 2200 ppm: yellow light, air quality could be better, please air the room
     * above 2200 ppm (max for sensor is 5000 ppm): red light, air quality is bad, concentration problems could occur above this threshold, air room as soon as possible
