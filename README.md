@@ -18,7 +18,7 @@ The targets are:
   * To preventing the spread of the corona virus (adhering to the guidelines) I need to be able to know when the room needs fresh air (especially useful when colleagues are in the same office space)
   * Prevent high CO2 content in the room since this impacts directly my productivity and ability to think straight (especially useful during work hours)
 
-
+ 
 ## 7-segment version
 
 DIY CO2 sensor with the following features:
@@ -39,6 +39,10 @@ DIY CO2 sensor with the following features:
       * Starts new .csv file after midnight to keep data steam manageable
       * Creates time stamps in front of measurement data and records this to .csv files as the first element in each line
     * [plot_serial_data_v2_working.py](https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/plot_serial_data_v2_working.py): Plot measurement data to live graph with .png export
+
+Notes:
+  * There is a small window in front of the RGB LED which was printed using clear PLA (noname brand material)
+  * The main body and rear plate were printed using [PLA Prusament Galaxy Black](https://shop.prusa3d.com/de/prusament/711-prusament-pla-prusa-galaxy-black-1kg.html) which prints very nicely. Layer height was 0.2mm using a Prusa i3 MK3S with standard prusament settings set in Prusa Slicer.
 
 <img src="https://github.com/Alasterer/CO2_traffic_light_7_segment/blob/main/7-seg_version_V1_block_diagram.png" width="400"/>
 
